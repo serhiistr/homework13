@@ -9,9 +9,9 @@ class Plant(db.Model):
 
     def serialize(self):
         return {
-            "id": self.plant.id,
-            "title": self.plant.title,
-            "location": self.plant.location
+            "id": self.id,
+            "title": self.title,
+            "location": self.location
         }
 
 
